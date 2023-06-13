@@ -1,1 +1,6 @@
 scikit-surprise
+scikit-learn
+pandas
+matplotlib
+scipy
+numpy
