@@ -1,23 +1,21 @@
-# The-Movie-Cinema
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
+# MOVIE RECOMMENDATION SYSTEM - ANALYSIS AND DEPLOYMENT
+
+![Python](https://img.shields.io/badge/Python-3.11-blueviolet)
 ![Framework](https://img.shields.io/badge/Framework-Flask-red)
 ![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
 ![API](https://img.shields.io/badge/API-TMDB-fcba03)
+
+</div>
+
 
 This application provides all the details of the requested movie such as overview, genre, release date, rating, runtime, top cast, reviews, recommended movies, etc.
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
-## Link to the application
+> If you can't find the movie you're searching for through auto-suggestions while typing, there's no need to worry. Simply type the name of the movie and press "enter". Even if you make some typos, it should still work fine.
 
-Check out the live demo: https://tmc.kishanlal.dev/
-
-If you can't find the movie you're searching for through auto-suggestions while typing, there's no need to worry. Simply type the name of the movie and press "enter". Even if you make some typos, it should still work fine.
-
-## 'Invalid Request' Error
-
-If you're getting invalid request error in your application, kindly go through this issue - https://github.com/kishan0725/The-Movie-Cinema/issues/2
 
 ## How to get the API key?
 
